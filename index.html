@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Harman Minhas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Website/Style/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+        <a class="navbar=brand" href="index.html"><img src="Images/logo.png" class="img-responsive" alt="logo"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href=#contact>Contact me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div id="aboutme">
+      <div class="row" id="aboutmeRow">
+        <span id="hi">  <h1>Hi, I'm <span id="Harman">Harman</span></h1>
+        </span>
+        <div class="hidden-xs col-md-6" id="aboutmeCol">
+          <img src="Website/images/me.png" class="img-responsive" alt="My Picture" id="aboutmeImage">
+        </div>
+        <div class="col-md-6">
+          <h1>About Me</h1>
+          <p>I'm a Computer Science student who is currently taking the Computer Systems Technology program at BCIT. I've been passionate about technology my whole life, and that passion started when I first picked up a video game. Playing video games is
+            how I mainly interacted with technology, until one day when I stopped and started wondering how the game was actually programmed. Ever since then, I became more and more interested about how every website I visited or every app that I downloaded
+            was designed, and that curiosity is what led me to discover my love for programming.
+            <br>
+            <p> I enjoy learning, both in and out of school. In my free time, I love to work on my personal projects and learn new aspects of programming. </p>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="projects">
+      <h1>Projects</h1>
+      <h3>Here are some projects that I've worked on, including both personal projects and school projects.</h3>
+
+      <div class="projectGallery">
+        <div class="container" id="projectContainer">
+          <div class="row">
+            <div class="col-md-6" id="project">
+              <h1>Snake</h1>
+              <p> While learning javascript, I made a two dimensional Snake game, much like the arcade version. This game runs in your browser and is built using p5.js, a javascript library. This game also keeps keeps track of your current score as well
+                as your highest score while you play. In order to gain some experience with object-oreinated programming, I used aspects of object-oreinated javascript while building this game, such as using constructor functions. <br>
+
+                <a href="">Play the Game</a>
+                <br>
+                <a href="">View on Github</a>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="Website/images/snake.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h1>2 Player Pong</h1>
+              <p> 2 Player Pong is another personal project where, with the help of some tutorials, I used javascript and p5.js in order to build a visual game. This game is very similar to the arcade video game Pong, where two players use their paddles to
+                hit a ball back and forth, in order to try and score points. This game also keeps tracks of the player scores, and it also displays a message showing who won once a player reaches 5 points. <br>
+
+                <a href="">Play the Game</a>
+                <br>
+                <a href="">View on Github</a>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="Website/images/pong.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h1> PHP Math Game</h1>
+              <p> This is a project which I worked on for a school assignment. This is a simple Math Game that was made entirely with PHP. The game picks two random numbers between 0 and 50, and tells the user to either add them or subtract them. It then
+                informs the reader if their answer was correct or not. Another feature of this game is that it contains a functioning login page, and without logging in with the correct credentials, it is impossible to access the game.
+                <br>
+                <br> Sample Login:
+                <br> Username: a@a.a
+                <br> Password: aaa
+                <br>
+                <br>
+
+                <a href="">Play the Game</a>
+                <br>
+                <a href="">View on Github</a>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="pong.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
