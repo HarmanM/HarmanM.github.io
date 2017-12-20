@@ -3,9 +3,19 @@ body{
 	padding: 0 px;
 	font-family: Roboto, sans-serif;
 }
+
 .navbar{
 	margin: 0px;
 	border-radius: 0px;
+}
+
+.navbar img{
+	width: 26%;
+	height: 26%;
+	position: relative;
+	left: 30px;
+	top: 13px;
+
 }
 .navbar=brand {
 	margin-left: 30px;
@@ -17,13 +27,13 @@ body{
 		padding: 13px;
 		padding-right: 50px;
 
+
 }
 
 .container-fluid {
     margin: 0px;
     padding-right: 0px;
     padding-left: 0px;
-		overflow:hidden;
 
 }
 h1 {
@@ -99,11 +109,12 @@ margin-bottom:50px;
 	line-height: 1.4em;
 	padding-top: 20px;
 
+
 }
 
 .projectGallery a {
 	font-size: 1.3em;
-	
+
 
 
 }
@@ -111,9 +122,9 @@ margin-bottom:50px;
 .projectGallery .row {
 	border: 4px solid black;
 	padding: 20px;
-	margin: 30px;
-	height: 70vh;
-	width: 60vw;
+	margin-top: 30px;
+	height: responsive;
+	width: responsive;
 	background: #FFDFD7;
 }
 .
