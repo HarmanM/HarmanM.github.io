@@ -2,6 +2,7 @@ body {
   margin: 0 px;
   padding: 0 px;
   font-family: Roboto, sans-serif;
+    background: black;
 }
 
 .navbar {
@@ -141,7 +142,6 @@ h1 {
   color: white;
 }
 
-.iconRow {
-  background: #222;
-  color: white;
+#icons a:hover {
+    cursor: pointer;
 }
