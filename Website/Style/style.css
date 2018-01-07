@@ -17,6 +17,10 @@ body {
   top: 13px;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+  margin-right: 0px;
+}
+
 .navbar=brand {
   margin-left: 30px;
 }
@@ -85,9 +89,10 @@ h1 {
 .projects {
   text-align: center;
   background: #79D7FD;
+  padding-bottom:  40px;
 }
 
-.projects h1 {
+.projects h1, .contact h1 {
   font-size: 4em;
   margin-top: 0px;
   padding-top: 35px;
@@ -107,6 +112,10 @@ h1 {
   font-size: 1.3em;
 }
 
+.row {
+  margin: 0px;
+}
+
 .projectGallery .row {
   border: 4px solid black;
   padding: 20px;
@@ -114,4 +123,25 @@ h1 {
   height: responsive;
   width: responsive;
   background: #FFDFD7;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 1.75em;
+  margin-bottom: 30px;
+}
+
+#icons a {
+  padding: 40px;
+}
+
+.contact {
+  background-color: black;
+  margin: 0px;
+  color: white;
+}
+
+.iconRow {
+  background: #222;
+  color: white;
 }
