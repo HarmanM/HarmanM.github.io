@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112118562-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112118562-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-112118562-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112118562-1');
+  </script>
 
   <link rel="icon" href="Website/Images/favicon.ico">
   <title>Harman Minhas</title>
@@ -22,21 +25,17 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
   <script>
-$(document).ready(function() {
-  $('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 1300);
+    $(document).ready(function() {
+      $('a').click(function() {
+        $('html, body').animate({
+          scrollTop: $($(this).attr('href')).offset().top
+        }, 1300);
 
-});
+      });
 
-});
-
-
-
-
+    });
   </script>
 </head>
 
@@ -90,8 +89,9 @@ $(document).ready(function() {
           <div class="row">
             <div class="col-md-6" id="project">
               <h1>Snake</h1>
-              <p> While learning javascript, I made a two dimensional Snake game, much like the arcade version. This game runs in your browser and is built using p5.js, a javascript library. This game also keeps keeps track of your current score as well as
-                your highest score while you play. In order to gain some experience with object-oreinated programming, I used aspects of object-oreinated javascript while building this game, such as using constructor functions. <br>
+              <p> In order to learn a new JavaScript framework, I followed Daniel Shiffman's coding challenge where he creates a semi-working Snake game using p5.js. I followed his tutorial/challenge and added some of my own code to the game which fixed some
+                of the major bugs such as the Snake being able to move in any direction at any point, and the game not resetting when the Snake hits the edge of the screen. This game runs in your browser and is built using p5.js, a javascript library.
+                This game also keeps keeps track of your current score as well as your highest score while you play. I also gained familiarity with constructor functions by implementing them in this game. <br>
                 <br>
                 <a href="https://harmanm.github.io/Snake/" target="_blank">Play the Game</a>
                 <br>
@@ -175,4 +175,5 @@ $(document).ready(function() {
       </div>
     </div>
 </body>
+
 </html>
